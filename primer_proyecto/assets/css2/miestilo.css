@@ -1,0 +1,84 @@
+/*body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+.estilo1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.estiloDiv {
+    background-color: rgb(248, 205, 189);
+}
+*/
+
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */}
+    
+footer {
+   background-color: #69bd45; /* Color de fondo del footer */
+   color: #fff;
+   padding: 10px;
+   margin-top: 1rem; 
+}
+    .footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; }
+
+    /* Estilos para el nav y enlaces de ul y li */
+nav {
+    background-color: #4caf50;
+    padding: 10px;
+    }
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    }
+    nav ul li a:hover {
+    background-color: #2f8247;
+    }
+
+    /* Estilos para las imágenes */
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+    }
+
+.boton-color a{
+    background: radial-gradient(circle, rgb(102, 212, 74) 0%, rgba(65, 170, 79, 0.986) 100%);
+    border-color: rgb(171, 226, 194);
+}
+
+.textocentrado{
+    text-align: center;
+    margin: 4%;
+    color: rgb(20, 20, 20);
+}
+
