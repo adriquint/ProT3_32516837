@@ -5,7 +5,7 @@ use CodeIgniter\Controller;
 
 class UsuarioController extends Controller{
     
-    public function construct(){
+    public function __construct(){
         helper(['form','url']);
     }
 
@@ -48,7 +48,8 @@ class UsuarioController extends Controller{
             ]);
 
             session()->setFlashdata('success', 'Usuario registrado con éxito');
-            return $this->response->redirect('/login');
+            //return $this->response->redirect('/login');
+            return redirect()->route('login');
 
         }
     }

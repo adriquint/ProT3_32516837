@@ -8,9 +8,10 @@ class PanelController extends Controller {
         
         $session = session();
         $nombre = $session->get('usuario');
-        $nombre = $session->get('perfil_id');
+        $perfil = $session->get('perfil_id');
 
         $data['perfil_id']=$perfil;
+        $data['nombre'] = $nombre;
    
         $dato['titulo']='panel del ususario';
         echo view('front/head_view', $dato);
