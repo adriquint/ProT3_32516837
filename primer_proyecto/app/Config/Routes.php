@@ -21,4 +21,4 @@ $routes->post('/enviar-form', 'UsuarioController::formValidation');
 $routes->get('/login', 'LoginController');
 $routes->post('/enviarlogin', 'LoginController::auth');
 $routes->get('/panel', 'PanelController::index', ['filter' => 'auth']);
-$routes->get('/logout', 'LoginController::formValidation');
+$routes->get('/logout', 'LoginController::logout');
