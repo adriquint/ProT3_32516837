@@ -28,7 +28,7 @@
         <a href="<?php echo base_url('login');?>" class="btn btn-danger">Cancelar</a>
         <br>
         <span>¿Aún no se registró?
-            <a href="<?php echo base_url('/registro');?>">Registrarse aquí</a>
+            <a href="<?php echo base_url('/registrarse');?>">Registrarse aquí</a>
         </span>
         
     </div>
